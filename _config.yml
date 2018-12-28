@@ -1,9 +1,9 @@
 # Site settings
-title: Liang Ke Jin
-description: Liang Ke Jin
+title: Mantou的学习笔记
+description: Mantou的学习笔记
 favicon: /assets/img/avatar.JPG
 baseurl:
-url: https://liungkejin.github.io
+url: https://happymantou.github.io
 rss_url:
 
 # Build settings
