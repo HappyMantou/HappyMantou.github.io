@@ -1,35 +1,31 @@
-# Permalinks
-permalink:           pretty
+# Site settings
+title: Liang Ke Jin
+description: Liang Ke Jin
+favicon: /assets/img/avatar.JPG
+baseurl:
+url: https://liungkejin.github.io
+rss_url:
 
-# Setup
-title:               Progress
-tagline:             A responsive blog theme that illustrates reading progress. Suited for continous reading.
-url:                 http://alexanderussell.github.io
-baseurl:             /progress-for-jekyll
-analytics_id:
+# Build settings
 
-# Owner/author information
-owner:
-  name:           Alex Russell
-  avatar:         avatar.png
-  bio:            "Designer."
-  email:          alex@collectivelymade.com
-  twitter:        alexanderussell
-  github:         alexanderussell
-  instagram:      alexanderussell
-  dribbble:       alexanderussell
-  location:       "Lincoln, NE"
+highlight: true
+#highlighter: rouge
 
+timezone: Asia/Shanghai
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# Pagination
-paginate: 5
-paginate_path: "blog/page:num"
-
-# Gems
-gems:
-  - jekyll-paginate
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
