@@ -1,5 +1,3 @@
-# Kejin
+# HappyMantou
 
-> 自己选的路，跪着也要走下去
-
-![Blog](/assets/img/blog.png)
+> 2019年，希望能够把写博客的习惯坚持下去吧
