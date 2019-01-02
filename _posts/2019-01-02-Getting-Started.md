@@ -11,7 +11,7 @@ excerpt_separator: "```"
 
 感谢 [github](https://github.com) 提供的 Github Pages 功能!
 
-采用的主题为：http://jekyllthemes.org/themes/easy-pure-blog/ ， 感谢开源博主
+采用的主题为：http://jekyllthemes.org/themes/easy-pure-blog/ ， 感谢开源博主[liungkejin](https://github.com/liungkejin)
 
 
 ```bash
