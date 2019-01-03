@@ -1,19 +1,37 @@
 ---
 layout: post_layout
-title: 开始篇
+title: AVL树和红黑树
 time: 2019年01月02日 星期三
 location: 深圳
 pulished: true
 excerpt_separator: "```"
 ---
 
-我的第一篇 github 博客, 本博客使用 [jekyll](http://jekyll.bootcss.com/) + [bootstrap](http://v3.bootcss.com) 搭建!
+#概念
+##树
+树由节点（Nodes）和 边（edges）构成。树有根节点（root），边（deges），父节点（parent），子节点（child），叶节点（leaf）。
+如果最多只允许两个子节点，即所谓的二叉树（binary tree）。不同的节点如果拥有相同的父节点，则彼此互为兄弟节点（siblings）。
+根节点至任何节点之间有唯一路径（path），路径所经过的边数，成为路径长度（length）。根节点至任一节点的路径长度，即所谓该节
+点的深度（depth）。根节点的深度永远是0。 某节点至其最深子节点（叶节点）的路径长度，成为该节点的高度（height）。整棵树的高
+度，便以根节点的高度来代表。节点A->B 之间如果存在（唯一）一条路径，那么A 称为B的祖代（ancestor），B称为A的子代（descendant）。
+任何节点的大小（size）是指其所有子代（包括自己）的节点总数。
+![demo](/assets/demo/tree_struct.png)
 
-感谢 [github](https://github.com) 提供的 Github Pages 功能!
+##AVL树
 
-采用的主题为：[简单博客](http://jekyllthemes.org/themes/easy-pure-blog) ， 感谢开源博主[liungkejin](https://github.com/liungkejin)
+##红黑树
 
+#实现
 
-```bash
-echo "你好, Github Pages!";
+#红黑树与STL
+
+#常见面试题
+
+```c++
+#include <iostream>
+
+int main(){
+    std::cout << "hello,world" << std::endl;
+    return 0;
+}
 ```
